@@ -1,0 +1,50 @@
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 70px;
+    gap: 236px;
+    margin: auto;
+
+
+    background: #F5F2EB;
+}
+
+.content {
+    margin-top: 17.5px;
+    margin-left: 1027px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 298px;
+    height: 45px;
+}
+
+
+
+
+.sign-up-button {
+    display: flex;
+    padding: 12px 18px;
+    /* border: 1px solid; */
+    align-items: center;
+
+    font-family: 'Degular Display Demo';
+    font-weight: 500;
+    /*hoi tai sao khong doi duoc */
+    font-size: 12px;
+    color: #000000;
+}
+
+.request-button {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 10px;
+    background: #AED6B3;
+    border-radius: 4px;
+}
