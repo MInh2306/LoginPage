@@ -1,50 +1,83 @@
-.page-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 70px;
-    gap: 236px;
-    margin: auto;
+ /* HEADER */
+ .page-header {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     padding: 20px 70px;
+     gap: 236px;
+     margin: auto;
 
 
-    background: #F5F2EB;
-}
+     background: #F5F2EB;
+ }
 
-.content {
-    margin-top: 17.5px;
-    margin-left: 1027px;
-    /* border: 1px solid; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 12px;
-    width: 298px;
-    height: 45px;
-}
-
-
+ .content {
+     margin-top: 17.5px;
+     margin-left: 1027px;
+     /* border: 1px solid; */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 12px;
+     width: 298px;
+     height: 45px;
+ }
 
 
-.sign-up-button {
-    display: flex;
-    padding: 12px 18px;
-    /* border: 1px solid; */
-    align-items: center;
 
-    font-family: 'Degular Display Demo';
-    font-weight: 500;
-    /*hoi tai sao khong doi duoc */
-    font-size: 12px;
-    color: #000000;
-}
 
-.request-button {
-    display: flex;
-    padding: 12px 18px;
-    align-items: center;
-    gap: 10px;
-    background: #AED6B3;
-    border-radius: 4px;
-}
+ .sign-up-button {
+     display: flex;
+     padding: 12px 18px;
+     /* border: 1px solid; */
+     align-items: center;
+
+     font-family: 'Degular Display Demo';
+     font-weight: 500;
+     /*hoi tai sao khong doi duoc */
+     font-size: 12px;
+     color: #000000;
+ }
+
+ .request-button {
+     display: flex;
+     padding: 12px 18px;
+     align-items: center;
+     gap: 10px;
+     background: #AED6B3;
+     border-radius: 4px;
+ }
+
+ /* MAIN CONTENT */
+ .wrapper {
+     /* max-width: 1100px; */
+     margin: 0 auto;
+     padding: 0 180px;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #F5F2EB;
+     border-top: 1px solid #000000;
+     margin: auto;
+ }
+
+ .image-container {
+     margin-top: 2%;
+     border: 1px solid;
+ }
+
+ .login-frame {
+     border: 1px dotted;
+     margin-top: 2%;
+     width: 480px;
+ }
+ .login-frame-content{
+     border: 1px solid;
+     margin: 58px 52px 47px 52px;
+     height: 543px;
+ }
