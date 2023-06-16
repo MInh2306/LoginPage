@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Library</title>
+    <title>Login Page</title>
 </head>
+
 <body>
     <header class="page-header">
-        <div class="content">
-            <img src="/img/ph_globe-light.svg" alt="globe_icon"> 
+        <div class="nav">
+            <img src="/img/ph_globe-light.svg" alt="globe_icon">
             <a class="sign-up-button" href="signup.html">Sign up</a>
             <a class="request-button" href="#">Request Demo</a>
         </div>
-    </header> <!--page-header-->
+    </header>
+    <!--page-header-->
     <!-- MAIN CONTENT -->
     <div class="container wrapper">
+        <!--login frame-->
         <div class="login-frame">
-            Login-frame
             <div class="login-frame-content">
-                content
+
                 <div class="sign-in-title">
-                    <h3>Sign In</h3>
+                    <h3>Sign in</h3>
                     <p>Hey, Enter your details to login to your account</p>
-                </div><!--sign-in-title-->
+                </div>
+                <!--sign-in-title-->
 
-                <div class="insert-box">
-                    <input class="id" type="text" value="Enter mail/phone">
-                    <input class="pass" type="password" value="Password"> 
-                </div> <!---insert-box--->
-                <div class="sign-in-button">sign in button</div>
+                <div class="insert-box-container">
+                    <input class="input-box id" type="text" value="Enter mail/phone">
+                    <input class="input-box pass" type="password" value="Password">
+                    <p>Don't have account yet? <a href="#">Register now!</a></p>
+                </div>
+                <!---insert-box--->
 
-            </div><!--login-frame-content-->
-        </div><!--login frame-->
+                <!--sign-in-box-->
+                <div class="sign-in-box">
+                    <a class="sign-in-button" href="#">Sign in</a>
+                    <p>ー Or Sign in With ー</p>
+                    <ul class="socials-list">
+                        <li><a href="https://www.google.com/">Google</a></li>
+                        <li><a href="https://www.apple.com/">Apple ID</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    </ul>
+                </div><!--sign-in-box-->
+                
+            </div>
+            <!--login-frame-content-->
+        </div>
+        <!--login frame-->
 
+        <!---left image-->
         <div class="image-container">
             <img src="/img/image.png" alt="main-img">
-        </div> <!---left image-->
-        
-    </div><!--container-->
-    
+        </div>
+        <!---left image-->
+
+    </div>
+    <!--container-->
+
 </body>
+
 </html>
